@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media (min-width: 1800px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+
+body {
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+@media (max-width: 900px) {
+    body {
+       padding: 0;
+    }
+}
+
